@@ -26,3 +26,9 @@ Implémentation étape 1
 
     - Le terrain de jeu
     - Son afficahge
+
+    Le terrain
+
+        - Le terrain est représenté par une grille de (lignes x colonnes) cases
+        - On commence par une taille 20 x 20
+
