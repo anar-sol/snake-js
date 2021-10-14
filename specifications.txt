@@ -30,5 +30,12 @@ Implémentation étape 1
     Le terrain
 
         - Le terrain est représenté par une grille de (lignes x colonnes) cases
-        - On commence par une taille 20 x 20
+        - On commence par une taille 22 x 22
+
+
+    Afficahge
+
+        - Commencer par une taille de cellule fixe
+        - Selon la largeur disponible, calculer la taille de chaque cellule
+        - Afficher les cellues en damier, avec des couleur légères
 
