@@ -1,0 +1,28 @@
+Snake
+
+    Dans un terrain de jeu rectangulaire, le joueur contrôle les mouvement d'un serpent
+    qui avance constamment. Il doit lui faire manger des bonus qui apparaissent sur le terrain
+    de jeu, pour augmenter sa taille et marquer des points. Le joueur doit aussi lui faire éviter
+    les obstacles sur son chemin, notamment les bords du terrain et le serpent lui même.
+
+    - Le terrain de jeu consiste en une grille de m x n cases
+    - Un serpent, de longueur l (en nombre de cases) avance constamment
+    - Le joueur peu diriger le serpent en orientant son mouvement (sa tête)
+    - Des bonus (nourritur) apparaissent aléatoirement sur la grille, un à la fois
+    - Si la tête du serpent touche un objet bonus, sa taille augmente d'une unité et un nombre de 
+    point p est marqué par le joueur.
+    - Si le serpent (sa tête) touche les bords ou s'il se touche lui-même le jeu est fini
+    - Faire en sorte que la vitesse du serpent augmente avec le temps/nombre de points?
+
+    - La taille de la grille en nombre de lignes et de colonnes est la même sur tous les écrans
+    - La taille de la grille (ou de la cellule) en pixels, change selon la taille disponible à l'écran
+    - Le serpent avance à une vitesse en pixels/sec pas par case
+    - Si le joueur change la direction du serpent, il ne peut plus en choisir une autre avant que le
+    serpent ne change vraimenet de direction
+    - Le serpent est considéré comme étant à la case i, j si sa tête a atteint au moin un pixel de la case
+
+
+Implémentation étape 1
+
+    - Le terrain de jeu
+    - Son afficahge
